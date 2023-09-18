@@ -1,0 +1,58 @@
+/*.home-container {
+    background-image: url('./background.jpg'); /* Use the same path as in the import */
+   /* background-size: cover; /* Adjust as needed */
+    /* background-repeat: no-repeat; /* Adjust as needed */
+   /* height: 100vh; /* Adjust as needed */
+    /* Additional styling for your content */
+ /* } */
+
+
+ 
+ 
+ .home
+ {
+    background:linear-gradient(to bottom right,#FE2305,#FE8F11,#FDE050,#FE477D,#4FA4E2,#00A7FF,#0214FE);
+    height:91vh !important;
+    background-size: 200% 200%;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    animation:move 15s infinite linear alternate;
+ }
+
+ #example
+ {
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.1);
+    border-radius: 20px;
+ }
+
+ @keyframes move
+ {
+    from
+    {
+       background-position:0 0;
+    }
+    to
+    {
+       background-position: 100% 100%;
+    }
+ }
+
+ .home h3{
+    font-size: 45px !important;
+ }
+
+ .help
+ {
+    background:linear-gradient(to bottom right,#FE2305,#FE8F11,#FDE050,#FE477D,#4FA4E2,#00A7FF,#0214FE);
+    height:91vh !important;
+    background-size: 200% 200%;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    animation:move 15s infinite linear alternate;
+ }
